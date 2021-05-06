@@ -4,23 +4,9 @@
 This is the Docker image for [XBackBone](https://github.com/SergiX44/XBackBone) ~ based on [webdevops/php-nginx](https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/php-nginx.html).
 
 # Supported tags and respective `Dockerfile`
--	[`latest` (**THIS REPO**/src/Dockerfile)]
--	[`3.3`,`3.3.3` (*src/Dockerfile*)]
--	[`3.2`,`3.2.0` (*src/Dockerfile*)]
--	[`3.1`,`3.1.4` (*src/Dockerfile*)]
--	[`3.0`,`3.0.2`, (*src/Dockerfile*)]
--	[`2.6`,`2.6.5` (*src/Dockerfile*)]
--	[`2.6.3` (*src/Dockerfile*)]
--	[`2.6.0` (*src/Dockerfile*)]
--	[`2.5`,`2.5.3` (*src/Dockerfile*)]
--	[`2.5.0` (*src/Dockerfile*)]
--	[`2.4`, `2.4.1`, (*src/Dockerfile*)]
--	[`dev` (*dev/src/Dockerfile*)](https://github.com/Pe46dro/XBackBone-docker/tree/dev)
+-	[`3.5`, `3.3.5` (*src/Dockerfile*)]
 
 # Quick reference
-
--	**Where to file issues**:  
-	[https://github.com/Pe46dro/XBackBone-docker/issues](https://github.com/Pe46dro/XBackBone-docker/issues)
 
 -	**Supported architectures**: `amd64`
 
@@ -36,7 +22,7 @@ $ docker run -p 80:80 \
     -e APP_NAME=XBackBone \
     -e URL=http:\/\/127.0.0.1 \
     --name xbb \
-    pe46dro/xbackbone-docker
+    sds1337/xbackbone-docker
 ```
 
 ## Container shell access
@@ -125,7 +111,7 @@ chown -R 1000:1000 /srv/xbb
  - Build and run
 
 ```bash
-git clone https://github.com/Pe46dro/XBackBone-docker.git .
+git clone https://github.com/sds1337/XBackBone-docker.git .
 docker-compose up -d
 ```
 
@@ -144,8 +130,9 @@ See the [docs](https://xbackbone.app/configuration.html#ldap-authentication) for
 Run the following command before performing the upgrade:
 `echo '-' > YOUR_STORAGE_VOLUME/storage/.installed`
 
-# Mantainer
- * [Pe46dro](https://github.com/Pe46dro) - Creator
+# Credits
+ * [Pe46dro](https://github.com/Pe46dro) - Original Creator
+ * [SDS1337](https://github.com/SDS1337) - Fork maintainer
 
 # License
 
