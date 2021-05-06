@@ -19,4 +19,4 @@ docker run -p 80:80 \
 		-v /srv/xbb/logs:/app/logs \
 		-e URL=http:\/\/127.0.0.1 \
 		--name xbackbone \
-		pe46dro/xbackbone-docker
+		sds1337/xbackbone-docker
