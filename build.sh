@@ -5,7 +5,7 @@
 docker kill xbackbone
 docker rm xbackbone
 
-docker build -t pe46dro/xbackbone-docker ./src/
+docker build -t sds1337/xbackbone-docker ./src/
 
 mkdir -p /srv/xbb/storage
 mkdir -p /srv/xbb/database
