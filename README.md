@@ -1,3 +1,4 @@
+# THIS IMAGE IS DEPRECATED. Please use Linuxserver's image at https://ghcr.io/linuxserver/xbackbone
 
 # About this Repo
 
